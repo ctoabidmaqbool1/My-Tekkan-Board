@@ -1,5 +1,5 @@
 .ui {
-	font: 12px Arial,Helvetica,sans-serif;
+	font: 20px Arial,Helvetica,sans-serif;
 margin: 0;
 	line-height: 1.3em;
 }
@@ -321,14 +321,15 @@ label{
 
 /*--Edit Modal ---*/
 .window-header {
-	margin: 8px 2pc;
-	padding: 0 8px;
+	
+	padding: 0 27px;
 	position: relative;
 	z-index: 1;
 }
 .window-title {
-	padding-top: 3px;
+	
 }
+
 .mod-card-back-title {
 	background: 0 0 !important;
 	border-radius: 3px;
@@ -393,7 +394,7 @@ label{
 .window-module-title {
 	padding: 8px;
 	position: relative;
-	margin: 0 24px 8px;
+	margin: 0 -14px 8px;
 }
 .window-module-title h3 {
 	display: inline-block;
@@ -408,7 +409,7 @@ label{
 }
 .new-comment {
 	position: relative;
-	margin: 0 0 20px 38px;
+	margin: 0 0 -10px -11px;
 }
 .comment-frame {
 	background-color: #fff;
@@ -435,8 +436,8 @@ label{
 }
 
 .u-gutter {
-	margin-left: 2pc;
-	margin-bottom: 1pc;
+	margin-left: 0pc;
+	
 }
 .checklist-new-item-text, .checklist-new-item-text:hover {
 	background: 0 0 !important;
@@ -461,7 +462,7 @@ input[type="checkbox"], input[type="radio"] {
   width: auto;
 }
 .tc-modal-body {
-	max-height: 90vh !important;
+	max-height: 100vh !important;
 }
 
 .button-link {
@@ -492,17 +493,17 @@ input[type="checkbox"], input[type="radio"] {
 	overflow-x: hidden;
 	overflow-y: auto;
 	min-height: 24px;
-	padding: 0 8px 8px;
+    padding: 0 0 6px 29px;
 	position: relative;
-	width: 65%;
+	width: 55%;
 	z-index: 0;
 }
 
 
 .window-sidebar {
+
 	float: right;
-	padding: 8px 1pc 8px 8px;
-	width: 30%;
+    width: 30%;
 	overflow: hidden;
 	z-index: 10;
 }
@@ -525,15 +526,15 @@ input[type="checkbox"], input[type="radio"] {
 	user-select: none;
 	white-space: nowrap;
 	border-radius: 3px;
-	font-weight: 700;
+	font-weight: 900;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	color: #444;
 	width: 100%;
 	border: 1px solid transparent;
-	text-align: left;
-	padding-left: 15%;
+	text-align: center;
+	padding-left: 1%;
 }
 
 /* ---- ------*/
@@ -628,7 +629,7 @@ input[type="checkbox"], input[type="radio"] {
 	overflow: hidden;
 	position: relative;
 	width: 60% !important;
-	left: 20% !important;
+	
 }
 .tc-modal-header {
 	display: none !important;
@@ -707,7 +708,7 @@ footer textarea {line-height: 22px;}
 
 @media all and (max-width: 640px) {
   .lists {flex-wrap:wrap;}
-  .list {height:auto; padding: 10px 0;}
+  .list {height:auto; width: 93%; padding: 10px 0;}
   .pop-over{
     position: fixed;
     left: 0;
@@ -724,6 +725,64 @@ footer textarea {line-height: 22px;}
   .mdbuttons {
 	margin: 0 30%;
 	}
+  .tc-modal-body {
+    max-height: 100vh !important;
 }
+  .window-header {
+    /* margin: 8px 1pc; */
+    padding: 0 8px;
+    position: relative;
+    z-index: 1;
+}
+  .window-sidebar {
+    float: right;
+    width: 35%;
+    overflow: hidden;
+    z-index: 10;
+   }
+  .tc-btn-invisible {
+    padding: 0px;
+    margin: 0px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333333;
+    fill: #333333;
+  }
+  .button-link {
+	background: #E2E4E6;
+	box-shadow: 0 1px 0 0 #C4C9CC;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	cursor: pointer;
+	display: block;
+	height: 2pc;
+	margin-top: 10px;
+	position: relative;
+	user-select: none;
+	white-space: nowrap;
+	border-radius: 3px;
+	font-weight: 500;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	color: #444;
+	width: 100%;
+	border: 1px solid transparent;
+	text-align: center;
+	padding-left: 1%;
+    }
+  .window-main-col {
+	float: left;
+	margin: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+	min-height: 24px;
+	padding: 0 4px 8px;
+	position: relative;
+	width: 64.14%;
+	z-index: 0;
+   }
+  }
 
  
